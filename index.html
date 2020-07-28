@@ -76,12 +76,12 @@
             let clonePin = document.getElementById("clonePin").value;
             let clonePinNum = parseInt(clonePin);
             if(holdPinNum == clonePinNum){
-               let matchingPin = document.getElementById("matchingPin"); // when generatepin & clonepin same then executed
+               let matchingPin = document.getElementById("matchingPin"); // when generatePIN & clonePIN same then executed
                matchingPin.style.display = "block";
                noMatchingPin.style.display = "none";
             }
             if(holdPinNum != clonePinNum){
-                let noMatchingPin = document.getElementById("noMatchingPin"); // when generatepin & clonepin don't same then executed
+                let noMatchingPin = document.getElementById("noMatchingPin"); // when generatePIN & clonePIN don't same then executed
                 noMatchingPin.style.display = "block";
                 matchingPin.style.display = "none";
             }
